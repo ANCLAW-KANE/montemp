@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/src/linux-headers-6.8.0-55/",
+                "/usr/include/asm/",
+                "/usr/src/linux-headers-6.8.0-55-generic/include/",
+                "/usr/src/linux-headers-6.8.0-55/arch/alpha/include",
+                "/usr/src/linux-headers-6.8.0-55/arch/x86/include",
+                "/usr/src/linux-headers-6.8.0-55/arch/powerpc/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
