@@ -104,7 +104,6 @@ impl ThermalApp {
                             .borders(Borders::ALL),
                     )
                     .alignment(Alignment::Center)
-                    //.scroll((0,self.sensor_offset as u16))
                     .wrap(Wrap { trim: false });
                 f.render_widget(paragraph, chunks[i]);
             }
